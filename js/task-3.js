@@ -8,5 +8,4 @@ function updateName() {
   nameOutput.textContent = inputValue === '' ? 'Anonymous' : inputValue;
 }
 
-// Додайте ініційне значення для спану
 updateName();
